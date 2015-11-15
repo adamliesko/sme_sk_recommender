@@ -1,3 +1,3 @@
-require "redis"
+require 'redis'
 
-$redis = Redis.new(:host => "localhost", :port => 6379, :db => 15)
+$redis = Redis.new(host: 'localhost', port: 6379, db: 15)
